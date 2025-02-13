@@ -186,5 +186,14 @@
 
 				}
 			});
+			
+			document.getElementById("showImageBtn").addEventListener("click", function() {
+				document.getElementById("imagePopup").style.display = "flex";  // 팝업 표시
+			  });
+			  
+			  document.getElementById("closeBtn").addEventListener("click", function() {
+				document.getElementById("imagePopup").style.display = "none";  // 팝업 닫기
+			  });
+			  
 
 })(jQuery);

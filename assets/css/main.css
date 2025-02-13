@@ -98,7 +98,7 @@ input, select, textarea {
 	}
 
 	body {
-		background: #312450;
+		background: #258fe0;
 	}
 
 		body.is-preload *, body.is-preload *:before, body.is-preload *:after {
@@ -197,10 +197,10 @@ input, select, textarea {
 		}
 
 			h1.major:after {
-				background-image: -moz-linear-gradient(to right, #5e42a6, #b74e91);
-				background-image: -webkit-linear-gradient(to right, #5e42a6, #b74e91);
-				background-image: -ms-linear-gradient(to right, #5e42a6, #b74e91);
-				background-image: linear-gradient(to right, #5e42a6, #b74e91);
+				background-image: -moz-linear-gradient(to right, #256bce, #b74e91);
+				background-image: -webkit-linear-gradient(to right, #256bce, #b74e91);
+				background-image: -ms-linear-gradient(to right, #256bce, #b74e91);
+				background-image: linear-gradient(to right, #256bce, #b74e91);
 				-moz-transition: max-width 0.2s ease;
 				-webkit-transition: max-width 0.2s ease;
 				-ms-transition: max-width 0.2s ease;
@@ -2536,19 +2536,19 @@ input, select, textarea {
 			}
 
 				.wrapper.style1 .icon.major:before {
-					color: #5e42a6;
+					color: #1884d2;
 				}
 
 				.wrapper.style1-alt .icon.major:before {
-					color: #493382;
+					color: #1e88ca;
 				}
 
 				.wrapper.style2 .icon.major:before {
-					color: #5052b5;
+					color: #1c61ab;
 				}
 
 				.wrapper.style2-alt .icon.major:before {
-					color: #3e4094;
+					color: #1e3881;
 				}
 
 				.wrapper.style3 .icon.major:before {
@@ -3022,7 +3022,7 @@ input, select, textarea {
 				-webkit-transition: opacity 1s ease;
 				-ms-transition: opacity 1s ease;
 				transition: opacity 1s ease;
-				background: rgba(49, 36, 80, 0.9);
+				background: rgba(46, 112, 255, 0.9);
 				content: '';
 				display: block;
 				height: 100%;
@@ -3236,23 +3236,23 @@ input, select, textarea {
 			}
 
 		.wrapper.alt {
-			background-color: #261c3e;
+			background-color: #429eef;
 		}
 
 		.wrapper.style1 {
-			background-color: #5e42a6;
+			background-color: #007eb5;
 		}
 
 		.wrapper.style1-alt {
-			background-color: #493382;
+			background-color: #429eef;
 		}
 
 		.wrapper.style2 {
-			background-color: #5052b5;
+			background-color: #0065be;
 		}
 
 		.wrapper.style2-alt {
-			background-color: #3e4094;
+			background-color: #2679c1;
 		}
 
 		.wrapper.style3 {
@@ -3370,7 +3370,7 @@ input, select, textarea {
 		display: -webkit-flex;
 		display: -ms-flex;
 		display: flex;
-		background-color: #5e42a6;
+		background-color: #007dd6;
 		cursor: default;
 		padding: 1.75em 2em;
 	}
@@ -3524,7 +3524,7 @@ input, select, textarea {
 
 	#sidebar {
 		padding: 2.5em 2.5em 0.5em 2.5em ;
-		background: #312450;
+		background: #4b87ff;
 		cursor: default;
 		height: 100vh;
 		left: 0;
@@ -3737,7 +3737,7 @@ input, select, textarea {
 			-ms-transition: color 0.2s ease;
 			transition: color 0.2s ease;
 			border: 0;
-			color: rgba(255, 255, 255, 0.35);
+			color: rgba(196, 196, 196, 0.35);
 			display: block;
 			font-size: 0.6em;
 			font-weight: bold;
@@ -3761,7 +3761,7 @@ input, select, textarea {
 			}
 
 			#sidebar nav a:before {
-				background: #3c2c62;
+				background: #00ffff;
 			}
 
 			#sidebar nav a:after {
@@ -3777,7 +3777,7 @@ input, select, textarea {
 			}
 
 			#sidebar nav a:hover {
-				color: rgba(255, 255, 255, 0.55);
+				color: rgba(255, 255, 255, 0.83);
 			}
 
 			#sidebar nav a.active {
@@ -3857,7 +3857,7 @@ input, select, textarea {
 
 						#sidebar nav a:after {
 							background-image: none;
-							background-color: #b74e91;
+							background-color: #ff8ed6;
 						}
 
 		}
@@ -3907,3 +3907,31 @@ input, select, textarea {
 			}
 
 		}
+
+		.popup {
+			display: none; /* 처음에는 숨겨짐 */
+			position: fixed;
+			top: 0;
+			left: 0;
+			width: 100%;
+			height: 100%;
+			background: rgba(0, 0, 0, 0.8); /* 배경을 어두운 색으로 */
+			justify-content: center;
+			align-items: center;
+			z-index: 1000;
+		  }
+		  
+		  #popupImage {
+			max-width: 200%;
+			max-height: 160%;
+		  }
+		  
+		  #closeBtn {
+			position: absolute;
+			top: 10px;
+			right: 20px;
+			color: white;
+			font-size: 30px;
+			cursor: pointer;
+		  }
+		  
