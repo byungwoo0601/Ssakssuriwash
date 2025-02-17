@@ -1,10 +1,16 @@
 @import url(fontawesome-all.min.css);
 
+
 /*
 	Hyperspace by HTML5 UP
 	html5up.net | @ajlkn
 	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 */
+
+@font-face {
+	font-family: 'melody';
+	src: url('../../fonts/HiMelody-Regular.ttf');
+}
 
 html, body, div, span, applet, object,
 iframe, h1, h2, h3, h4, h5, h6, p, blockquote,
@@ -30,7 +36,9 @@ footer, header, hgroup, menu, nav, section {
 
 body {
 	line-height: 1;
+	font-family: 'melody';
 }
+
 
 ol, ul {
 	list-style: none;
@@ -116,8 +124,8 @@ input, select, textarea {
 
 	body, input, select, textarea {
 		color: rgba(255, 255, 255, 0.55);
-		font-family: Arial, Helvetica, sans-serif;
-		font-size: 16.5pt;
+		/* font-family: Arial, Helvetica, sans-serif; */
+		font-size: 20pt;
 		font-weight: normal;
 		line-height: 1.75;
 	}
